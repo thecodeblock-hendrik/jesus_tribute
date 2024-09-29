@@ -11,6 +11,8 @@ body {
   width: 100%;
   background-color: #0077b6;
   margin: 0 auto;
+  color: #0a2e4e;
+  font-family: verdana, sans-serif;
 }
 
 #main {
@@ -54,5 +56,20 @@ section {
 }
 
 #tribute-info {
+  padding-top: 5px;;
   text-align: center;
+}
+
+section > ul > li {
+  margin: 25px;
+}
+
+section p {
+  text-align: center;
+  padding-left: 10px;
+}
+
+a {
+  color: #0a2e4e;
+  cursor: pointer;
 }
