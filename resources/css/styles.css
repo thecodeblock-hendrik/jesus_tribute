@@ -2,6 +2,57 @@
   box-sizing: border-box;
 }
 
-.main {
-  background-color: #7fffd4;
+body {
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #0077b6;
+  margin: 0 auto;
+}
+
+#main {
+  background-color: #bfd7ea;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+  padding-top: 5px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#tribute-info {
+  text-align: center;
 }
